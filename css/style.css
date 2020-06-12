@@ -1,0 +1,91 @@
+body {
+	background-color: rgb(198, 230, 238);
+	color: rgb(255, 81, 0);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.25em;
+}
+img {
+	width: 40%;
+	height: auto;
+}
+.primary-heading {
+	color: cadetblue;
+	background: rgb(152,251,255);
+	background: linear-gradient(90deg, rgba(152,251,255,1) 8%, rgba(255,127,0,1) 100%);
+	font-family: 'georgia',serif;
+}
+.header{
+	width: 100%;
+	height: auto;
+}
+.toc {
+	background-color: pink;
+  text-align: center;
+  
+  box-sizing: border-box;
+  width: 50%; 
+	height: auto;
+  
+	padding: 2em;
+	margin-left: auto;
+	margin-right: auto;
+}
+.highlight {
+	background-color: cyan;
+	color: darkgoldenrod;
+}
+.about-me {
+background-color: lightblue;
+color: #0000ff;
+}
+.center-this {
+	text-align: center;
+}
+.paragraph{
+	background-color: yellow;
+	padding: 2em;
+	border-radius: 1em;
+}
+.paragraph2{
+	background-color: blanchedalmond;
+	border-left: 1em black;
+	text-align: justify;
+	padding: 3em;
+	margin-left: auto;
+	margin-right: auto;
+}
+.big-and-bold {
+	font-weight: 700;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	text-transform: uppercase;
+	color: #ff0000;
+}
+.instagram {
+	background-color: purple;
+	color: white;
+}
+.crossed {
+	text-decoration: line-through;
+}
+
+
+/* FONTS 
+font-weight
+	number: 100-900
+	400 - normal
+	700 - bold
+font-style
+	normal or italic
+font-size: 1em - default browser font size 
+
+font-family
+	comma-separated list of font types (arial, roboto, etc.)
+
+TEXT/TYPE
+text-align: left, center, right, justify
+text-transform: lowercase, uppercase, 
+text-decoration: underline, line-through
+
+*{} applies to all elements (e.g. box-sizing: border-box;)
+
+*/
